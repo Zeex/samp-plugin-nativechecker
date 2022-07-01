@@ -1,7 +1,7 @@
 CXX=g++
 
-CXXFLAGS=-c -O3 -w -DLINUX -I./amx
-LDFLAGS=-Os -shared
+CXXFLAGS=-m32 -c -O3 -w -DLINUX -I./amx
+LDFLAGS=-m32 -Os -shared
 
 all: nativechecker.so
 
